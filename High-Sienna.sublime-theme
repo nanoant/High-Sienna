@@ -970,38 +970,41 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "High-Sienna/assets/panel/icon-regex-off.png",
+        "layer0.texture": "High-Sienna/assets/panel/icon-regex.png",
+        "layer0.tint": [92, 92, 92],
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "High-Sienna/assets/panel/icon-regex-on.png"
+        "layer0.tint": [255, 255, 255]
     },
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "High-Sienna/assets/panel/icon-case-off.png",
+        "layer0.texture": "High-Sienna/assets/panel/icon-case.png",
+        "layer0.tint": [92, 92, 92],
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "High-Sienna/assets/panel/icon-case-on.png"
+        "layer0.tint": [255, 255, 255]
     },
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "High-Sienna/assets/panel/icon-word-off.png",
+        "layer0.texture": "High-Sienna/assets/panel/icon-word.png",
+        "layer0.tint": [92, 92, 92],
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "High-Sienna/assets/panel/icon-word-on.png"
+        "layer0.tint": [255, 255, 255]
     },
 
 //
@@ -1011,50 +1014,67 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "High-Sienna/assets/panel/icon-context-off.png",
+        "layer0.texture": "High-Sienna/assets/panel/icon-context.png",
+        "layer0.tint": [92, 92, 92],
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "High-Sienna/assets/panel/icon-context-on.png"
+        "layer0.tint": [255, 255, 255]
     },
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "High-Sienna/assets/panel/icon-buffer-off.png",
+        "layer0.texture": "High-Sienna/assets/panel/icon-buffer.png",
+        "layer0.tint": [92, 92, 92],
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "High-Sienna/assets/panel/icon-buffer-on.png"
+        "layer0.tint": [255, 255, 255]
+    },
+    // Use gitignore
+    {
+        "class": "icon_use_gitignore",
+        "layer0.texture": "High-Sienna/assets/panel/icon-gitignore.png",
+        "layer0.tint": [92, 92, 92],
+        "layer0.opacity": 1.0,
+        "content_margin": [9, 9]
+    },
+    {
+        "class": "icon_use_gitignore",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "layer0.tint": [255, 255, 255]
     },
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "High-Sienna/assets/panel/icon-wrap-off.png",
+        "layer0.texture": "High-Sienna/assets/panel/icon-wrap.png",
+        "layer0.tint": [92, 92, 92],
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "High-Sienna/assets/panel/icon-wrap-on.png"
+        "layer0.tint": [255, 255, 255]
     },
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "High-Sienna/assets/panel/icon-selection-off.png",
+        "layer0.texture": "High-Sienna/assets/panel/icon-selection.png",
+        "layer0.tint": [92, 92, 92],
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "High-Sienna/assets/panel/icon-selection-on.png"
+        "layer0.tint": [255, 255, 255]
     },
 
 //
@@ -1064,14 +1084,15 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "High-Sienna/assets/panel/icon-preserve-off.png",
+        "layer0.texture": "High-Sienna/assets/panel/icon-preserve.png",
+        "layer0.tint": [92, 92, 92],
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "High-Sienna/assets/panel/icon-preserve-on.png"
+        "layer0.tint": [255, 255, 255]
     },
 
 //
@@ -1081,14 +1102,15 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "High-Sienna/assets/panel/icon-highlight-off.png",
+        "layer0.texture": "High-Sienna/assets/panel/icon-highlight.png",
+        "layer0.tint": [92, 92, 92],
         "layer0.opacity": 1.0,
         "content_margin": [9, 9]
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.texture": "High-Sienna/assets/panel/icon-highlight-on.png"
+        "layer0.tint": [255, 255, 255]
     }
 
 ]

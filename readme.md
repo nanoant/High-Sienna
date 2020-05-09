@@ -41,11 +41,7 @@ theme": "YourPreviousTheme.sublime-theme",
 
 Then, restart Sublime Text.
 
-## Settings
-
-The following parameters can be added in your settings file (`Sublime Text` → `Preferences` → `Settings`).
-
-Set `sienna_system_font` to `true` to use the system font (if your system does not have the [San Francisco](https://developer.apple.com/fonts/) font installed, or if you experience UI issues.  
+## Tips
 
 I also recommend setting the 'SF Mono' as your main font. [Here](http://osxdaily.com/2018/01/07/use-sf-mono-font-mac/) is how to install it.  Add `"font_face": "SF Mono",` to your settings file to enable it.  I suggest setting  `"font_size": 11,` also.
 

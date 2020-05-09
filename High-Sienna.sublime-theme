@@ -1,36 +1,6 @@
 [
 
 //
-// SETTINGS
-// 
-
-    {
-        "class": "tab_label",
-        "font.face": ".SFNS-Regular",
-        "settings": ["!sienna_system_font"]
-    },
-    {
-        "class": "sidebar_heading",
-        "font.face": ".SFNS-Regular",
-        "settings": ["!sienna_system_font"]
-    },
-    {
-        "class": "sidebar_label",
-        "font.face": ".SFNS-Regular",
-        "settings": ["!sienna_system_font"]
-    },
-    {
-        "class": "label_control",
-        "font.face": ".SFNS-Regular",
-        "settings": ["!sienna_system_font"]
-    },
-    {
-        "class": "tool_tip_label_control",
-        "font.face": ".SFNS-Regular",
-        "settings": ["!sienna_system_font"]
-    },
-
-//
 // TAB
 //
 
